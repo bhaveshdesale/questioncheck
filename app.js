@@ -4,7 +4,7 @@ const axios = require("axios");
 const app = express();
 const PORT = 3000;
 
-const PASSWORD_API_URL = "https://67ac5c325853dfff53da5fe4.mockapi.io/api/v1/ak/Bhavesh/users";
+const PASSWORD_API_URL = "https://67ace6c33f5a4e1477dc41cf.mockapi.io/api/v1/user";
 
 app.get("/get-password", async (req, res) => {
   try {
